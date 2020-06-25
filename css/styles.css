@@ -100,6 +100,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -238,7 +239,7 @@ Navbar
 
 @media screen and (min-width: 992px) {
   /* hide toggle button */
-  .navbar{
+  .navbar {
     padding: 1rem 2rem;
   }
   .nav-toggle {
@@ -255,31 +256,31 @@ Navbar
     height: auto;
     display: flex;
   }
-  .nav-header{
+  .nav-header {
     padding: 0 0;
   }
-  .nav-link{
+  .nav-link {
     padding: 0 0;
     margin-right: 0.7rem;
   }
-  .nav-link:hover{
+  .nav-link:hover {
     padding: 0;
     color: var(--clr-primary-5);
     background: transparent;
   }
-  .nav-icons{
+  .nav-icons {
     display: flex;
   }
-  .nav-icon{
+  .nav-icon {
     margin-right: 0.7rem;
     color: var(--clr-primary-5);
     font-size: 1.2rem;
     transition: var(--transition);
   }
   .nav-icon:hover {
-    color: var(--clr-primary-8)
+    color: var(--clr-primary-8);
   }
-
+}
 /*
 =============== 
 Hero
